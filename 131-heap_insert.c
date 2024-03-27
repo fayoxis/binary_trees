@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 #include <stdbool.h>
+#include "9-binary_tree_height.c"
 
 
 /**
@@ -12,21 +13,6 @@
 size_t max_size_t(size_t first, size_t second)
 {
 	return ((first > second) ? first : second);
-}
-
-
-/**
- * binary_height - this determibe  the height of a binary tree
- * @tree: shows the root node from which to it is determined.
- * Return: returns levels  root, or 0 if `tree` is NULL
- */
-size_t binary_height(const binary_tree_t *tree)
-{
-	while (!tree)
-		return (0);
-
-	return (1 + max_size_t(binary_height(tree->left),
-			       binary_height(tree->right)));
 }
 
 /**
