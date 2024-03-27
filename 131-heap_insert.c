@@ -42,7 +42,7 @@ size_t t_nodes;
 do {
 if (!tree)
 return (0);
-height = binary_tree_height(tree);
+height = binary_height(tree);
 t_nodes = binary_tree_nodes(tree);
 for (i = 0; i < height; i++)
 power *= 2;
