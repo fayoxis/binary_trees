@@ -2,7 +2,7 @@
 
 /**
  * sortedArray_to_avl - Creates an AVL tree from a sorted array
- * @array: The sorted input array
+ * @array: The sorted input of the array
  * @start: The starting index of the array
  * @end: The ending index of the array
  * @parent: A pointer to the parent node
