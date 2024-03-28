@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 
+
 /**
  * sortedArray_to_avl - Creates an AVL tree from a sorted array
  * @array: The sorted input of the array
